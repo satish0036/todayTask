@@ -1,0 +1,70 @@
+.layout{
+    width: 620px;
+    height: auto;
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    /* overflow-y:scroll; */
+
+}
+.layoutBox{
+    padding: 25px;
+
+  
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.rowBox{
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 15px 0px;
+
+
+}
+.userIcon{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.userIcons{
+    display: flex;
+    flex: 1;
+}
+.nameDate{
+    display: flex;
+    justify-content: start;
+    flex: 2;
+    gap: 1px;
+    flex-direction: column;
+}
+.name{
+
+    font-size: 20px;
+    font-weight: 500;
+
+    color: white;
+}
+.date{
+    font-size: 18px;
+    font-weight: 500;
+
+    color: rgb(109, 115, 117);
+}
+.totalPrice{
+    display: flex;
+    flex: 4;
+    justify-content: end;
+    /* border: 2px solid red; */
+}
+.totalPrice{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(198, 200, 201);
+}
